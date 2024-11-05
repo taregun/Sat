@@ -1,4 +1,4 @@
-import turtle 
+import turtle
 from datetime import datetime
 import winsound
 import requests
@@ -135,7 +135,7 @@ while True:
     now = datetime.now()
     current_second = now.second
     if current_second != previous_second:
-        winsound.Beep(1000, 20)
+        winsound.Beep(1000, 10)
         previous_second = current_second
     HOUR = now.hour
     MINUTE = now.minute
